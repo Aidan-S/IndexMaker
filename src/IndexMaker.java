@@ -35,8 +35,7 @@ public class IndexMaker
       fileName = keyboard.nextLine().trim();
     }
 
-    PrintWriter outputFile =
-                 new PrintWriter(new FileWriter(fileName));
+    PrintWriter outputFile = new PrintWriter(new FileWriter(fileName));
 
     // Create index:
 
