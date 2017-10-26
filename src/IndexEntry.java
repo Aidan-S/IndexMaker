@@ -10,7 +10,7 @@ public class IndexEntry {
 		numsList = new ArrayList<Integer>();
 	}
 
-	public static void add(int num) {
+	public void add(int num) {
 		if(numsList.contains(num) == false) {
 			numsList.add(num);
 		}
